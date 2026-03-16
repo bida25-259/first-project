@@ -28,3 +28,6 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+window.addEventListener("load", function(){
+    document.getElementById("loader").style.display = "none";
+});
