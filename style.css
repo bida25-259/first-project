@@ -294,28 +294,7 @@ a:hover {
     position: relative;
 }
 
-.hero-section::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,0.6);
-}
 
-.hero-content {
-    position: relative;
-    z-index: 2;
-}
-
-.hero-content h1 {
-    letter-spacing: 3px;
-}
-
-.hero-content p {
-    font-size: 22px;
-}
    
 /* ============================
    HERO VIDEO SECTION
@@ -409,4 +388,15 @@ a:hover {
 
 @keyframes spin {
     100% { transform: rotate(360deg); }
+}
+.carousel img{
+height:500px;
+object-fit:cover;
+border-radius:15px;
+}
+
+.carousel-caption{
+background:rgba(0,0,0,0.5);
+border-radius:10px;
+padding:10px;
 }
