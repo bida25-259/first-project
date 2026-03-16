@@ -3,21 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+    <title>BMW Info Home</title>
+    <link rel="stylesheet" href="style.css">
+<!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-   <header>
-    <h1>Welcome to Our Website</h1>
-  </header> 
- <main>
-     <p>This is the home page of our website. Here you can find various resources and information about our services.</p>
-     <p>Here is a picture of a BMW car:</p>
-        <img src="https://www.bmw.com/content/dam/bmw/marketBMWCOM/bmw_com/Models/3-Series-Sedan/G20/2020/BMW-3-Series-Sedan-G20-2020-1600-01.jpg" alt="BMW Car" width="600">
-     <p>Visit<a href="About.html">About Us</a> to learn more about our company.</p>
+<header>
+    <h1>BMW Info</h1>
+    <nav>
+    <header>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4">
+    <a class="navbar-brand text-info fw-bold" href="#">BMW Info</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="models.html">Models</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="About.html">About</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="history.html">History</a>
+            </li>
+
+        </ul>
+    </div>
+</nav>
+</header>    
+
+<main>
+    <h2>Welcome to BMW Info</h2>
+    <p>This website teaches you everything about BMW cars, especially the BMW M4.</p>
+    <div class="slideshow-container">
+
+<div class="slide fade">
+<img src="BMW M4.jpg">
+</div>
+
+<div class="slide fade">
+<img src="BMW M4 p2.jpg">
+</div>
+
+<div class="slide fade">
+<img src="BMW M4 p3.jpg">
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+
+<div class="dots">
+<span class="dot" onclick="currentSlide(1)"></span>
+<span class="dot" onclick="currentSlide(2)"></span>
+<span class="dot" onclick="currentSlide(3)"></span>
+</div>
+    
+     <p>Visit our <a href="About.html">About page</a> to learn more about us.</p>
 </main>
+
 <footer>
-    <p>&copy; 2024 Our Website. All rights reserved.</p>
+    <p>&copy; 2026 BMW Info. All rights reserved.</p>
 </footer>
+<script src="script.js"></script>
 </body>
 </html>
 
