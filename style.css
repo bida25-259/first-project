@@ -202,38 +202,7 @@ a:hover {
     .history-card img { width: 100%; }
 }
    
-/* ============================
-   Slideshow Styling
-============================ */
 
-.slideshow-container {
-    position: relative;
-    max-width: 700px;
-    margin: 20px auto;
-    overflow: hidden;
-    border-radius: 15px;
-}
-
-.slide {
-    display: none;
-}
-
-.slide img {
-    width: 100%;
-    border-radius: 15px;
-}
-
-/* Fade animation */
-
-.fade {
-    animation-name: fade;
-    animation-duration: 1s;
-}
-
-@keyframes fade {
-    from {rgba: .4}
-    to {rgba: 1}
-}
 
 /* Next & Previous Buttons */
 
