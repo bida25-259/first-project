@@ -231,8 +231,8 @@ a:hover {
 }
 
 @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
+    from {rgba: .4}
+    to {rgba: 1}
 }
 
 /* Next & Previous Buttons */
